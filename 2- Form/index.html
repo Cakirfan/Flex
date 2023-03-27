@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <style>
+
+    table {
+        margin: 50px auto;
+    }
+
+    tr {
+        height: 44px;
+    }
+
+    input {
+        width: 200px;
+        height: 25px;
+        border: 1.6px solid rgb(39, 101, 152);
+        box-shadow: 0.2px 0.2px 0.5px blue;
+    }
+
+    .a {
+        width: 170px;
+    }
+
+    .d {
+        width: 200px;
+    }
+
+    .b {
+        width: 130px;
+    }
+
+    .c {
+        width: 150px;
+    }
+
+    .hobies {
+         width: auto; 
+         height: auto;
+         border: 1.6px solid blue;
+         margin-top: 10px;
+    }
+
+    select {
+        width: 200px;
+        height: 25px;
+        border: 1.6px solid rgb(39, 101, 152);
+    }
+
+    #btn1 {
+        height: 25px;
+        margin-left: -60px;
+        border: 1.6px solid rgb(39, 101, 152);
+        
+    }
+
+
+
+  </style>
+
+  <body>
+    <form action="">
+
+      <table>
+
+        <tr>
+          <td class="a"><label for="name">Name</label></td>
+          <td><input class="d" id="name" type="text"/></td>
+          <td class="b"></td>
+          <td class="c"><label for="hobi">Hobies</label></td>
+          <td rowspan="2">
+            <input class="hobies" type="checkbox"/>Fuẞball <br>
+            <input class="hobies" type="checkbox" />Volleyball <br>
+            <input class="hobies" type="checkbox" />Basketball
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="nachnahme">Nachname</label></td>
+          <td><input id="nachnahme" type="text"/></td>
+          <td></td>
+          <td></td>
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <td>Geschlecht</td>
+          <td>
+            <input style="width: auto; height: auto;" id="bay" type="radio" name="cinsiyet" value="Bay" />
+            <label for="bay">Herr</label>
+            <input style="width: auto; height: auto;" id="bayan" type="radio" name="cinsiyet" value="Bayan" />
+            <label for="bayan">Frau</label>
+          </td>
+          <td></td>
+          <td><label for="myfile">Profil Foto</label></td>
+          <td>
+            <input id="myfile" type="search" name="myfile">
+            <button id="btn1">Browse</button>
+          </td>
+          <!-- <td></td> -->
+        </tr>
+
+        <tr>
+          <td><label for="ilce">Bezirk</label></td>
+          <td>
+            <select name="ilce" id="">
+              <option value="">Üsküdar</option>
+              <option value="">Ümraniye</option>
+              <option value="">Kadiköy</option>
+              <option value="">Silivri</option>
+              <option value="">Catalca</option>
+            </select>
+          </td>
+          <td></td>
+          <td><label for="date">Geburtsdatum</label></td>
+          <td><input style="width: 170px;" id="date" type="date" name="date"></td>
+        </tr>
+
+        <tr>
+          <td><label for="email">E-Mail</label></td>
+          <td><input id="email" type="email" placeholder="example@gmail.com" /></td>
+          <td></td>
+          <td><label for="adres">Adresse</label></td>
+          <td rowspan="2">
+            <textarea style="border: 1.6px solid rgb(39, 101, 152);" name="" id="adres" cols="25" rows="5"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="site">Persönliche Webseite</label></td>
+          <td><input id="site" type="text" name="" /></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <td><label for="tel">Telefon</label></td>
+          <td><input id="tel" type="tel" name="tel" 
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" 
+            placeholder="Geben Sie Ihre Nummer ein"/>
+          </td>
+          <td></td>
+          <td></td>
+          <td><input style="margin-top: -40px; width: 120px; height: 40px; background-color: rgb(211, 211, 211);" type="button" value="Anmelden"></td>
+        </tr>
+  
+      </table>
+
+    </form>
+
+  </body>
+</html>

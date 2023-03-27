@@ -1,0 +1,31 @@
+.container {
+    background-color: rgb(238, 149, 194);
+    width: 70%;
+    height: 80%;
+    border: 1px solid rgb(48, 47, 47);
+    padding: 5px 5px 13px 5px;
+    margin: 50px auto;
+}
+.erste, .zweite, .dritte, .vierte, .fünfte {
+    width: 100%;
+    display: inline-block;
+}
+.box1 {
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(73, 70, 70);
+    float: left;
+    color: aliceblue;
+}
+.box1, .box2,
+.box3 {
+    float: left;
+}
+.box4, .box5,
+.box6 {
+    float: right;
+}
+.box8, .box11, .box13, .box15, .box16, .box17{
+float:right;
+}

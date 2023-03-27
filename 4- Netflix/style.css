@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Bowlby+One+SC:regular);
+@import url(https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:regular,italic);
+
+body{
+    background-image: url(netflix_background.jpeg);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: larger;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.495);
+    height: 100%;
+    width: 95%;
+    margin: auto;
+    /* padding-bottom: 1%; */
+}
+
+.main{
+    background-color: rgba(2, 2, 2, 0.744);
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+span{
+    color:red;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-family: "Bowlby One SC";
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    font-family: "Sorts Mill Goudy";
+    margin-top: -20px;
+    margin-bottom: -15px;
+}
+
+form{
+    width: 87%;
+    margin:30px;
+    padding-top: 30px;
+    padding-bottom: 12px;
+    margin-left: 45px;
+}
+
+.ilkuc{
+    width: 95%;
+    height: 50px;
+    border-radius: 3px;
+}
+
+#content{
+    width: 80%;
+    height: 35px;
+}
+
+#feedback{
+    margin-top: 8px;
+    border-radius: 3px;
+}
+
+button{
+    display: block;
+    padding: 12px 45px;
+    font-size: 24px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+    border: none;
+    /* margin: 20px auto; */
+    margin-left: 30%;
+    margin-top: 15px;
+    margin-bottom: 10px; 
+}
+
+button:hover{
+    background-color: white;
+    color: red;
+}

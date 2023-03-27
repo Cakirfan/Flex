@@ -1,0 +1,37 @@
+
+.container {
+    width: 80%;
+    height: 500px;
+    margin: 50px auto;
+    /* background-color: orange; */
+}
+
+h2 {
+    font-size: 2rem;
+    display: inline;
+    background-color: rgb(68, 67, 67);
+    color: #fff;
+    padding: 10px 40px;
+    margin-bottom: -22px;
+    border: 2px solid rgb(68, 67, 67);
+    border-bottom: none;
+}
+
+.menu {
+    display: none;
+    padding-left: 25px;
+    margin-top: 9px;
+    width: 175px;
+    border: 3px solid rgb(68, 67, 67);
+    font-size: 24px
+}
+
+li {
+    padding-left: 10px;
+    padding-bottom: 3px;
+}
+
+nav:hover .menu {
+    display: block;
+    cursor: pointer;
+}
