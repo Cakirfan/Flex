@@ -1,0 +1,153 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 60%;
+    height: 90vh;
+    margin: 20px auto;
+    background-color: rgb(61, 56, 56);
+    border-radius: 15px;
+}
+
+.box {
+    border: 2px solid rgb(61, 56, 56);
+    transition: all .5s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.content {
+    width: 95%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    border-radius: 15px;
+    margin: 20px auto;
+    background-color: rgb(61, 56, 56);
+}
+
+.erste {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    margin: 4% auto;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: orchid;
+}
+
+.erste .box1 {
+    width: 30%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    background-color: rgb(56, 192, 56);
+}
+
+.erste .box2 {
+    width: 70%;
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    background-color: rgb(82, 151, 230);
+}
+
+.zweite {
+    width: 100%;
+    height: 20%;
+    margin: 4% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    color: #fff;
+    background-color: red;
+}
+
+.dritte {
+    width: 100%;
+    height: 15%;
+    margin-top: -15px;
+    display: flex;
+}
+
+.dritte .box {
+    background-color: rgb(56, 192, 56);
+    width: 33.3333%;
+}
+
+.vierte {
+    width: 100%;
+    height: 12%;
+    margin-top: 45px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.vierte .box {
+    background-color: rgb(217, 143, 5);
+}
+
+.vierte .box1 {
+    width: 17%;
+}
+
+.vierte .box2 {
+    width: 40%;
+}
+
+.vierte .box3 {
+    width: 17%;
+}
+
+.fünfte {
+    width: 100%;
+    height: 12%;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.fünfte .box1 {
+    width: 27%;
+    background-color: green;
+}
+
+.fünfte .box2 {
+    width: 18%;
+    background-color: green;
+}
+
+.fünfte .box3 {
+    width: 18%;
+    background-color: green;
+}
+
+.fünfte .box4 {
+    width: 27%;
+    background-color: green;
+}
+
+
+
+@media screen and (max-width: 770px) {
+    .erste {
+        font-size: 1.5rem;
+    }
+
+    .zweite {
+        font-size: 2rem;
+    }
+}
