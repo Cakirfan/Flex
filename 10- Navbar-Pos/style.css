@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Teko:wght@400;600&display=swap');
+
+
+body {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: calc(80% - 20px) ;
+    background-color: #d2d2d2;
+    height: 1200px;
+    position: relative;
+    border: 2px solid #fff;
+    border-radius: 0 0 15px 15px;
+}
+
+
+header {
+    display: flex;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+    height: 45px;
+    font-size: 1.7rem;
+    align-items: center;
+    background-color: #171515;
+    position: sticky;
+    top: 5px;
+    /* border: 2px solid #fff; */
+}
+
+
+header .left,
+nav .prac {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 2px solid #fff; */
+}
+
+header .right,
+nav .menu {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-left: 2px solid #fff;
+    /* border: 1px solid #fff; */
+}
+
+header .left p {
+    margin: 5px 9px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav .prac {
+    font-size: 2.5rem;
+    font-family: 'Kalam', cursive;
+    padding: 0 0 0 9px;
+    /* border-right: 2px solid #fff; */
+}
+
+ul li a {
+    padding: 0 7px;
+    color: #fff;
+}
+
+.menu {
+    font-size: 1.7rem;
+    font-family: 'Teko', sans-serif;
+}
+
+.menu ul li a {
+    color: black;
+    font-weight: bold;
+}
+
+.menu ul li a:hover,
+.right a:hover {
+    color: #860909;
+}
+
+header .right ul, 
+nav .menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 5px;
+}
+
+
+nav {
+    display: flex;
+    color: black;
+    height: 75px;
+    background-color: #b5b2b2;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+/* .fa-brands {
+    background-color: green;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 3rem;
+} */
+
+img {
+    width: 10%;
+    position: fixed;
+    top: 55%;
+    right: 20%;
+}
+
+
+@media screen and (max-width: 890px) {
+    ul li a {
+    padding: 0 4px;
+}
+
+    .menu ul {
+        font-size: 1.2rem;
+    }
+
+    .prac p {
+        font-size: 2.2rem;
+    }
+}
+
+@media screen and (max-width: 623px) {
+    ul li a {
+    padding: 0 3px;
+}
+
+    .menu ul {
+        font-size: .8rem;
+    }
+}
