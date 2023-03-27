@@ -1,0 +1,126 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    height: 80vh;
+    margin: 80px auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-color: #d3d5d6;
+    border-radius: 30px;
+    box-shadow: 5px 8px 20px rgb(53, 50, 50) ;
+}
+
+.d1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 80px;
+    width: 60%;
+    height:80px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid rgb(125, 114, 114);
+    box-shadow: 2px 3px 15px black;
+}
+
+.d1 input,
+.btn input {
+    width: 90%;
+    height: 90%;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    margin-left: 1.5rem;
+    border: none;
+}
+
+.btn input {
+    margin-right: .5rem;
+    margin-left: 3rem;
+    border-radius: 40px;
+    background-color: rgb(65, 60, 60);
+    color: #fff;
+}
+
+.d1 input:focus,
+.btn input:focus {
+    outline: none;
+}
+
+.d1:active {
+    box-shadow: 2px 3px 20px red;
+}
+
+.d1:hover {
+    border: 3px solid rgb(81, 114, 174);
+    transform: scale(1.05, 1);
+}
+
+.d1 img {
+    width: 33px;
+    height: 33px;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: .8rem;
+}
+
+.btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 80px 40px ;
+    background-color: rgb(65, 60, 60);
+    width: 60%;
+    height:80px;
+    border-radius: 40px;
+    border: 1px solid rgb(37, 34, 34);
+    box-shadow: 2px 3px 15px black;
+}
+
+.btn button {
+    height: 100%;
+    width: 20%;
+    border-radius: 40px;
+    background-color: rgb(235, 178, 72);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2px;
+    transition: transform-scale 5s ease;
+}
+
+.btn:active {
+    justify-content: flex-start;
+}
+
+.btn:active button {
+    background-color: #fff;
+    color: red;
+}
+
+
+.btn:hover {
+    transform: scale(1.05, 1);
+}
+
+@media screen and (max-width: 1300px) {
+    
+    .btn button {
+        font-size: 1rem;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 775px) {
+    
+    .btn button {
+        font-size: .7rem;
+    }
+}
