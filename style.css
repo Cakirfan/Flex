@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto:wght@400;500&family=Teko:wght@400;600&display=swap');
+
+
+body {
+  background-color: #92abb5;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  color: rgb(75, 98, 130);
+  font-size: 3rem !important;
+  border-bottom: 1px solid rgb(123, 138, 139);
+}
+
+h1,
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2rem;
+  font-family: "Teko", sans-serif;
+  transition: all 0.3s ease;
+}
+
+h2:hover {
+  transform: scale(1.4);
+}
+
+ul {
+  /* border: 1px solid black; */
+  padding: 15px 45px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+ul:hover {
+  background-color: #6f8c99;
+  transform: scale(1.2);
+  box-shadow: 3px 3px 10px black;
+}
+
+li {
+  list-style: none;
+  padding-top: 3px;
+}
+
+i {
+  color: #bf5f2b;
+}
+
+.react i,
+.javascript i {
+    color: orange;
+    font-size: xx-large;
+}
+
+a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: inline-block;
+  padding-left: 5px;
+  color: rgb(75, 56, 9);
+  transition: all .3s ease;
+}
+
+a:hover {
+    color: #fff;
+    transform: scale(1.2);
+}
