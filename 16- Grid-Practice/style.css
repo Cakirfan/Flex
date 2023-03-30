@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto:wght@400;500&family=Teko:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-size: 1em; */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+    gap: 10px;
+    width: 90%;
+    height: 90vh;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.items {
+    width: 100%;
+    background-color: rgb(41, 119, 192);
+    color: #eee;
+    padding: 1em;
+    /* margin: 5px; */
+}
+
+.item1 {
+    grid-column-end: span 4;
+}
+
+.item2 {
+    grid-row-end: span 2;
+}
+.item3 {
+    grid-row-end: span 2;
+}
+.item4 {
+    grid-row-end: span 2;
+}
+
+.item5 {
+    grid-row-end: span 3;
+}
+
+.item6 {
+    grid-column-end: span 3;
+}
+
+.item7 {
+    grid-column-end: span 4;
+}
