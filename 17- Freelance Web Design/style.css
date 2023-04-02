@@ -1,0 +1,318 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*! Header-Nav */
+
+/* #header {
+    position: relative;
+} */
+
+.navbar ul li a {
+    transition: all .5s ease-in-out;
+    margin-right: 10px;
+}
+
+.navbar ul li a:hover {
+    transform: scale(1.1);
+    color: #fff !important;
+}
+
+.navbar ul li a:hover {
+    background-color: #992889;
+    color: #9090ad;
+    border-radius: 5px;
+    padding: 5px;
+    /* transform: scale(1.05); */
+}
+
+#header img {
+    width: 250px;
+}
+
+#ndnben .icons a {
+    background-color: white;
+    border: 1px solid #992889;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    font-size: 1.5rem;
+    position: relative;
+    margin-right: 1rem;
+}
+
+#ndnben .icons a:hover {
+    background-color: #992889;
+    transition: all .3s ease;
+    transform: scale(1.4);
+}
+
+#ndnben .icons a:hover i {
+    color: #fff;
+    transition: all .3s ease;
+}
+
+#ndnben .icons a i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.icons i {
+    color: #992889;
+}
+
+#banner {
+    background-color: #000;
+}
+
+#banner .container-fluid {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/img/header-bg.jpeg);
+    opacity: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#banner #yazilar h1 {
+    font-size: 3rem;
+}
+
+#banner #yazilar p {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+#banner #yazilar a {
+    font-size: 1.5rem;
+}
+
+#banner #yazilar i {
+    font-size: 4rem;
+}
+
+#banner #yazilar i:hover {
+    color: #fff;
+}
+
+#banner #yazilar a:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: black;
+    opacity: 50%;
+}
+
+
+
+/*! Main */
+
+#ndnben p {
+    color: #a1a1a1;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#hizmetler .card {
+    box-shadow: 0 10px 10px rgb(40, 40, 40);
+}
+
+#hizmetler .card:hover {
+    background-color: #659acc;
+    border: 2px solid blue;
+    color: #fff;
+    transition: all .5s ease-in-out;
+    transform: scale(1.1);
+}
+
+#hizmetler .card:hover p {
+    color: #fff;
+}
+
+#hizmetler .card:hover i {
+    color: #000;
+}
+
+#hizmetler .card-text,
+#hizmetler i {
+    color: #a3a3ab;
+}
+
+.card-title {
+    border-bottom: 2px solid #992889;
+}
+
+.hizmet {
+    letter-spacing: 8px;
+}
+
+.hizmet2 {
+    letter-spacing: 3px;
+}
+
+#müsteriler img {
+    border-radius: 50%;
+    width: 100px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#müsteriler, #iletisim {
+    background-color: gainsboro;
+}
+
+#referanslar ul li a {
+    color: #992889;
+}
+
+#referanslar ul li a:hover {
+    background-color: #992889;
+    color: #fff;
+}
+
+#referanslar ul li .active {
+    background-color: #992889;
+}
+
+#referanslar p {
+    color: #9090ad;
+}
+
+#referanslar i {
+    color: #992889;
+}
+
+#referanslar2 .card {
+    box-shadow: 0 10px 10px rgb(40, 40, 40);
+    border: none;
+}
+
+.card:hover .overlay {
+  transform: scale(1);
+  border-radius: 30px;
+}
+
+.overlay {
+  position: absolute;
+  background-color: #252727dc;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .5s ease;
+  box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+.text {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.soluk {
+    color: #a1a1a1;
+}
+
+#iletisim .card {
+    background-color: gainsboro;
+    border: none;
+}
+
+#hizmetler .fa-sun,
+#müsteriler i,
+#referanslar i,
+#iletisim i {
+    color: #992889;
+}
+
+#iletisim form button {
+    font-size: 2rem !important;
+    box-shadow: 3px 7px 10px rgb(40, 40, 40);
+}
+
+
+/*! FOOTER */
+
+footer .social-media a {
+    background-color: white;
+    border-radius: 50%;
+    border: none;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: inline-block;
+    position: relative;
+    margin-right: 1rem;
+}
+
+footer .social-media a:hover {
+    background-color: #d42e2e;
+    transition: all .5s ease-in-out;
+    transform: scale(1.3);
+}
+
+footer .social-media a:hover i {
+    color: #fff;
+}
+
+footer .social-media a i {
+    position: absolute;
+    color: #000;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+body {
+    position: relative;
+}
+
+.ustgit {
+    line-height: 70px;
+    background-color: #2d57b1;
+    color: #fff;
+    border-radius: 50%;
+    transition: font-size .3 ease;
+}
+
+.ustgit:hover {
+    background-color: #e17029;
+    transform: scale(1.2);
+    box-shadow: 2px 3px 10px darkblue;
+}
+
+.git1 {
+    position: fixed;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    bottom: 87px;
+    right: 15px;
+}
+
+.git2 {
+    position: fixed;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    bottom: 15px;
+    right: 15px;
+}
+
+
