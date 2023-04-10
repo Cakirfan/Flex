@@ -2,27 +2,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Roboto:wght@400;500&family=Teko:wght@400;600&display=swap');
 
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background-color: #92abb5;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .header {
+  width: 100%;
+  height: 13vh;
+} */
+
+body {
+  background-image: url(./assets/pexels-daniel-putzer-633409.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .container {
-  margin-top: 50px;
-  margin-left: 50px;
+  width: 100%;
+  height: 100vh;
+}
+
+main {
+  width: 95%;
+  color: #eee;
+  margin: 2rem auto;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6rem;
 }
 
 h1 {
-  color: rgb(75, 98, 130);
-  font-size: 3rem !important;
-  border-bottom: 1px solid rgb(123, 138, 139);
+  color: rgb(190, 198, 209);
+  font-size: 4rem !important;
+  box-shadow: 2px 3px 15px;
+  margin-top: 0 !important;
+  padding: 1.5rem 0;
+  /* border-bottom: 1px solid rgb(123, 138, 139); */
 }
 
 h1,
 h2 {
   text-align: center;
   margin-top: 50px;
+  letter-spacing: .2rem;
   font-size: 2rem;
   font-family: "Teko", sans-serif;
   transition: all 0.3s ease;
@@ -37,12 +68,21 @@ ul {
   padding: 15px 45px;
   border-radius: 20px;
   transition: all 0.3s ease;
+  box-shadow: 2px 3px 15px;
+}
+
+ul {
+  margin-top: 3rem;
 }
 
 ul:hover {
-  background-color: #6f8c99;
+  background-color: #eee;
   transform: scale(1.2);
   box-shadow: 3px 3px 10px black;
+}
+
+ul:hover a {
+  color: #000;
 }
 
 li {
@@ -65,11 +105,11 @@ a {
   text-decoration: none;
   display: inline-block;
   padding-left: 5px;
-  color: rgb(75, 56, 9);
+  color: #eee;
   transition: all .3s ease;
 }
 
 a:hover {
-    color: #fff;
-    transform: scale(1.2);
+    color: #c11717 !important;
+    transform: scale(1.1);
 }
