@@ -30,7 +30,6 @@ imgContent.onmouseout = () => {
 
 call.onclick = () => {
   imgInner.src = "./img/img5.gif";
-  call.style.backgroundColor = "red";
 };
 
 
