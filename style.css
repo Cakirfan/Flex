@@ -94,8 +94,7 @@ i {
   color: #bf5f2b;
 }
 
-.react i,
-.javascript i {
+.react i {
     color: orange;
     font-size: xx-large;
 }

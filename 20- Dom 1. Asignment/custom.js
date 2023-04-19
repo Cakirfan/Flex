@@ -3,6 +3,7 @@ const title = document.querySelector(".title");
 const title2 = document.querySelector("#title2");
 const imgContent = document.querySelector(".img-content");
 const imgInner = document.querySelector(".inner-img");
+const buttons = document.querySelector(".btn");
 const call = document.querySelector(".btn-call");
 const musicplay = document.querySelector("#playBtn");
 const musicstop = document.querySelector("#stopBtn");
@@ -29,7 +30,9 @@ imgContent.onmouseout = () => {
 
 call.onclick = () => {
   imgInner.src = "./img/img5.gif";
+  call.style.backgroundColor = "red";
 };
+
 
 // musicplay.onclick = () => {
 //   audio.play();
