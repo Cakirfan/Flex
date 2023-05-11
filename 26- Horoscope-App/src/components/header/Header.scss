@@ -1,0 +1,56 @@
+@import "../../scss/variable";
+
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $or;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+
+  img {
+    width: 100px;
+
+    &:hover {
+        transform: rotate(180);
+    }
+  }
+
+  ul {
+    li {
+      display: inline;
+      margin-right: 10px;
+      text-transform: uppercase;
+
+      a {
+        color: $white;
+        text-decoration: none;
+        padding: 5px;
+        border-radius: 5px;
+        font-weight: bold;
+
+        @media  screen and (max-width: 525px) {
+          font-size: .7rem;
+        }
+
+        @media  screen and (max-width: 390px) {
+          font-size: .5rem;
+        }
+
+        &:hover {
+            background-color: #fff;
+            color: $red;
+            transition: .7s ease;
+        }
+
+      }
+    }
+  }
+}

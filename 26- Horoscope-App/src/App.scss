@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500&family=Teko:wght@400;600&display=swap');
+
+@import "./scss/date";
+@import "./scss/reset";
+@import "./scss/variable";
+@import "./scss/cardTitle";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+div {
+    position: relative;
+}

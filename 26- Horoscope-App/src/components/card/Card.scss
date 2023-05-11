@@ -1,0 +1,91 @@
+@import "../../scss/variable";
+
+div {
+  position: relative;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 150px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: .2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+  animation: blinker 1.2s linear infinite;
+
+  &:hover {
+    color: $bg;
+  }
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.container {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+
+  .card {
+    position: relative;
+    text-align: center;
+    // width: 40%;
+    width: 350px;
+    height: 300px;
+    box-shadow: $shadow;
+    border-radius: 5px;
+
+    div {
+      position: absolute;
+      color: #fff;
+      font-size: 1rem;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #000000be;
+      overflow-y: scroll;
+      width: 100%;
+      height: 0;
+      transition: 0.5s ease;
+
+      p {
+        padding: 11px;
+        font-style: italic;
+        overflow-y: auto;
+        text-align: justify;
+        text-indent: 1.5rem;
+      }
+    }
+
+    div::-webkit-scrollbar {
+      display: none;
+    }
+
+    &:hover {
+      opacity: .6;
+    }
+
+    &:hover div {
+      height: 82%;
+    }
+
+    img {
+      border-radius: 5px;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+    }
+  }
+}

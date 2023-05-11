@@ -1,0 +1,13 @@
+@import "./variable";
+
+.cardTitle {
+  position: absolute;
+  display: inline-block;
+  float: left;
+  background-color: $bg;
+  color: $white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
