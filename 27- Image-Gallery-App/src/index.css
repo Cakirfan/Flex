@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+    transition: all .5s ease-in-out;
+    animation: flicker 0.5s ease-in-out infinite alternate;
+}
+
+.container-title:hover {
+    font-size: 3.5rem;
+    color: red;
+    transition: all .5s ease-in-out;
+}
+
+@keyframes flicker {
+        0%{
+            opacity: 0.5;
+            text-shadow: 2px 2px 10px rgb(206, 114, 114);
+        }
+        100%{
+            opacity: 0.8;
+            text-shadow: 2px 2px 10px red;
+        }
+        
+    }
+
+.app-container {
+    background-image: url(../src/helpers/bgFoto.jpg);
+    object-fit: cover;
+    transition: all .5s ease-in-out;
+}
+
+.photographer-card {
+  height: 400px;
+  max-width: 290px;
+  min-width: 250px;
+  overflow:hidden;
+}
+
+.card-hidden {
+    overflow: hidden;
+}
+
+.photographer-logo {
+  height: 350px;
+  max-height: 350px;
+  transition: transform 0.2s;
+  overflow: hidden;
+}
+
+.photographer-logo:hover {
+    transform: scale(1.05);
+}
+
+
+.c-body {
+    color: red !important;
+    animation: flicker-2 1s ease-in-out infinite alternate;
+}
+
+@keyframes flicker-2 {
+        0%{
+            opacity: 0.5;
+            background-color: rgb(91, 168, 187);
+        }
+        100%{
+            opacity: 0.8;
+            background-color: rgb(71, 143, 177);
+        }
+        
+    }
